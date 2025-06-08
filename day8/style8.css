@@ -1,0 +1,23 @@
+.red{
+    color: rgb(255, 187, 0);
+
+
+}
+
+.bg-yellow:hover{
+    background-color: rgb(0, 102, 255);
+}
+
+.text:hover{
+font-style:italic;
+}
+
+
+
+/* #firstly{
+    background-color:aqua
+}
+
+#secondly{
+    background-color: rosybrown;
+} */

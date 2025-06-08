@@ -1,0 +1,8 @@
+button:hover{
+    background-color: rgb(10, 239, 247);
+    border-width: 12px;
+    border-color: aquamarine;
+    border-radius: 20px;
+    animation-duration: 10ms;
+
+}

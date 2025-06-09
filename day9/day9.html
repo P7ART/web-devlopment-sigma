@@ -1,0 +1,42 @@
+<!-- Video, Audio & Media in HTML -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video, Audio & Media in HTML</title>
+    <link rel="stylesheet" href="style9.css">
+ </head>
+ <body>
+    <video src="music1.mp4" controls  height="255" autoplay loop muted poster="image1.jpg"></video>
+    <audio src="music.mp3" controls autoplay width="20000" height="2000" muted preload="metadata" ></audio>
+    <svg width="120" height="120">
+        <rect x="10" y="10" width="100" height="100" fill="white" stroke="black" stroke-width="78" />
+      </svg>
+    <iframe src="https://www.codewithharry.com/tutorial/html-iframes" frameborder="0"  width="320" ></iframe>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=JIghQOTUCtJ_xArB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+      <div>
+          <iframe src="https://www.google.com/maps/@26.8220189,80.909712,15z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D" frameborder="0"></iframe>
+      </div>
+      <h1>What is an iFrame?
+        An iFrame is an HTML element that enables an inline frame for the embedding of external content. Essentially, you can load another web page within a designated area of your current webpage.</h1>
+        <h2>preload attribute ko simple hinglish mein samjhaata hoon — ye audio (ya video) tag ke andar hota hai aur browser ko yeh batata hai ki audio file ko page load ke time kitna load karna chahiye.</h2>
+        <h2>none
+            🟡 Matlab: Kuch bhi preload mat karo.
+            ➡️ Browser audio file bilkul bhi download nahi karega jab tak user play button nahi dabata.
+            ✅ Kab use karein: Jab tu bandwidth bachana chahta hai ya user se pehle action chahta hai.</h2>
+        <h2>auto
+            🔵 Matlab: Browser apne aap decide karega ki file kitni preload karni hai — aur generally zyada preload karta hai.
+            ➡️ Ye file background mein load karta hai taaki user play kare to instantly start ho jaye.
+            ✅ Kab use karein: Jab tu chahata hai ki audio jaldi play ho jaaye bina rukawat ke.</h2>
+        <h2>metadata
+            🟢 Matlab: Sirf audio file ki basic info jaise duration, size wagairah load karo.
+            ➡️ Puri audio file load nahi hoti.
+            ✅ Kab use karein: Jab tujhe sirf info dikhani hai jaise "song is 3:45 long", bina pura song load kiye.</h2>
+            <svg>...</svg>
+
+
+ </body>
+ </html>

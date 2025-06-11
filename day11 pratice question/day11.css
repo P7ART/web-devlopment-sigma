@@ -1,0 +1,8 @@
+ul:hover{
+    text-transform: capitalize;
+    color: cadetblue;
+
+}
+li,a:hover{
+    color: aqua;
+}

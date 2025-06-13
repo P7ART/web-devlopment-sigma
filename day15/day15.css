@@ -1,0 +1,52 @@
+
+/*HTML TAG SELECTOR*/
+div{
+    color:rgb(57, 153, 44);
+}
+
+/* CSS CLASS SELECTOR*/
+
+.text{
+    background-color: rgb(0, 81, 255);
+    color:chartreuse;
+    font-style: inherit;
+}
+
+/* id SELECTOR*/
+
+#tet:hover{
+    background-color: #b700ff;
+    color: #3cff00af;
+    transform: rotate ();
+    transition: 3s;
+}
+
+/* child SELECTOR  issme jo target selector directly parent ya main selector ke andar ana  chaiye*/
+div >p{
+    background-color:chartreuse;
+    color:crimson;
+    font-weight: 200;
+    font-style: oblique;
+}
+
+/* descendant  SELECTOR ye case ek grandfather type hota hai jisme jaruri nahi hai ki target selector main ke andar ke child ho.*/
+div p{
+    background-color: #6200ff79;
+    color: #000000af;
+    font-weight: bolder;
+    font-style: inherit;
+    text-decoration: dotted;
+
+}
+
+/* universal SELECTOR ke liye * ka use hota hai.*/
+*{
+    padding: 0.5%;
+    margin: 0%;
+}
+
+
+/* PESUDO SELECTOR YE SELECTOR BASICALLY USE HOTE HAI JASE HAME Pseudo-selector CSS ka wo part hota hai jo kisi element ke specific condition/state par style lagata hai.*/
+
+
+

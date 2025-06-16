@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Cascade</title>
+    <link rel="stylesheet" href="day19.css">
+    <style>
+        .points{
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple">CSS Specificity</h1>
+        <pre><h2> Specificity hoti h kisi baat phale mani jayegi css mei aur uski baat ko taal nahi sakte order neeche de rakha h
+ Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector</h2></pre>
+ <pre class="points">
+  <h3>1.  Position and order of appearance: the order in which your CSS rules appear  matlab agar same specificity selector hai css mei  tuh last  position wala jo same specificity selector hai wo apply hoga apply hoga
+2. Specificity: an algorithm that determines which CSS selector has the strongest match
+3.Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+4.Importance: some CSS rules are weighted more heavily then any other selector...matlab ki agar kisi statement ke samne    color: red !important likha hoga tuh wahi property apply hoga ye inline se bhi uppar 
+ </h3></pre>
+ <pre>
+    <h1>Specificity score saare type of selector ka</h1>
+    <h3>Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000
+!important at the end of a CSS value gets a specificity score of 10,000 points.
+</h3>
+<h1>ATTRIBUTE SELECTOR BHI HOTA H USSKO REPRESENT KARTE H [] ISS MEI  [data-x=a] {
+    color: maroon;   &lt;h1 class="yellow cred cpurple" data-x="a"&gt;;CSS Specificity&lt;/h1&gt;</h1>
+ </pre>
+ 
+    </div>
+</body>
+</html>

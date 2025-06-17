@@ -1,0 +1,15 @@
+/* 
+Shadows syntax
+box-shadow: h-offset v-offset, blur ,spread ,color inset; */
+
+div{
+    border: 10px solid black;
+    padding: 20px;
+    box-shadow: 5px 15px 15px green ;
+}
+p{
+    text-shadow: 5px 15px 5px black;
+    border:2px solid black;
+    outline: 2px solid  green;
+    display: inline-block;
+}

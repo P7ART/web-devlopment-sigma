@@ -1,0 +1,15 @@
+li{
+    list-style:armenian;
+    list-style-type: "❤️";
+    background-color: aqua;
+    list-style-position: inside;
+    border: 2px solid black;
+
+} 
+
+ul{
+    display: flex;
+    padding: 23px;
+    list-style: none;
+
+}

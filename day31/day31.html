@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on selectors</title>
+    <style>
+        .boxes{
+            border: 2px solid black;
+        }
+         .box:first-child{ 
+            background-color: aqua;
+
+        }
+
+        .box::first-line{
+            background-color: rosybrown;
+        }
+      
+        .boxes *{
+            color: red;
+            border: 2px solid blue;
+        }
+      .box,  [data-color="primary"]{
+            margin-top: 45px;
+            padding-top: 23px;
+
+        }
+
+        .box:nth-last-child(2){
+            color: crimson;
+        }
+
+        /*Bhai agar tum CSS se dynamically content daalna chahte ho, to uske liye CSS ka ::before ya ::after pseudo-elements ka use hota hai — aur content property se value inject kar sakte ho.*/
+        .boxes::before{
+            content: "h1>WELCOME TO THE BOX";
+            color: red;
+          
+            
+        }
+
+        .boxes::after{
+            content:  " © ALL COPYRIGHT RESERVED";
+            color: rgb(0, 255, 149);
+           
+            
+        }
+        .boxes::selection{
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+        .box::first-letter{
+            color:burlywood;
+        }
+        .boxes::first-letter{
+            color: aquamarine;
+        }
+        input::placeholder{
+            color: yellow;
+            background-color: black;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="boxes"> 
+        <div  data-color="primary"   class="box"> I AM FIRST BOX.</div>
+        <div class="box">Hey I am box</div>
+        <div class="box">Hey I am box</div>
+        <input type="text" placeholder="Enter your name">
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-direction: column;
+            flex-wrap:wrap;
+            <!-- align-content: center;   -->
+            flex-flow: row wrap; /*flex-flow ka use karne se dono property ek sath likh sakte hai*/
+            /*there is not justify item in flexbox*/
+             /*wrap-reverse ka use bahut rare hi hota h*/
+              gap: 40px 10px ;/*iss gap property mei ham row  gap aur column gap ko ek saath define kar sakte h pahle row gap 
+              likhte h fir column gap likhte h*/
+             
+            
+
+                  
+        }
+        .item{
+            
+            height: 32px;
+            width:32px;
+            border: 2px solid black;
+            margin:4px;
+            background-color: blueviolet;
+            flex-shrink: 2; 
+            
+        }
+        .order-1{
+            order: 1;
+            align-self: flex-end;
+        }
+        .order-2{
+            order: 15;
+        }
+        .item1{
+            align-self:flex-end;
+        }
+        
+
+    </style>
+ </head>
+ <body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item order-2">6</div>
+        <div class="item order-1">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item item1">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+        <div class="item">15</div>
+
+    </div>
+    
+ </body>
+ </html>

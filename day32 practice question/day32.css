@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 600px) {
+    .site {
+        background-image: url("card2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 190vh;
+        
+    }
+    .navbar{
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .nav {
+    
+        background-color: rgba(32, 5, 5, 0.1);
+        backdrop-filter: blur(2px);
+        padding: 20px;
+        
+        text-align: end;
+    
+    
+    }
+    
+    ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 80px;
+        padding: 10px;
+    
+    
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+    
+    }
+    
+    ul li a:hover {
+        color: rgb(245, 245, 245);
+        padding: 10px;
+        border-radius: 15px;
+        background-color: rgba(177, 7, 100, 0.486);
+        backdrop-filter: blur(2px);
+        box-shadow: 2px 2px 5px rgba(74, 3, 141, 0.767);
+        z-index: 1;
+        padding: 15px;
+        transition: 0.3s;
+    }
+    
+    .location {
+        width: 300px;
+        height: 450px;
+        background-color: rgba(39, 26, 41, 0.5);
+        backdrop-filter: blur(4px);
+        padding: 50px;
+        margin: 100px;
+        border-radius: 8px;
+        display: inline-block;
+        text-align: center;
+    
+    }
+    
+    .imge {
+        margin: 5px;
+        padding: 7px;
+    }
+    
+    img {
+        width: 100%;
+        border-radius: 12px;
+    
+    
+    }
+    
+    .capsule {
+        color: rgb(253, 253, 253);
+        padding: 5px;
+        margin: 20px;
+        background-color: rgba(15, 5, 15, 0.041);
+        backdrop-filter: blur(4px);
+        border: 2px solid rgba(15, 5, 15, 0.041);
+        border-radius: 8px;
+    }
+    .text{
+        text-align: center;
+        background-color: rgba(15, 5, 15, 0.041);
+    }
+    .text h1{
+        font-family:cursive;
+        color: rgba(6, 225, 233, 0.863);
+    }
+    
+    p{
+        color: cadetblue;
+        font-family: monospace;
+        font-weight: bolder;
+    
+    }
+    
+    .buton {
+        text-align: center;
+        padding:13px;
+        margin:8px;
+        
+    }
+    button{
+        background-color: rgba(211, 191, 211, 0.253);
+        backdrop-filter: blur(4px);
+        border-radius: 10px;
+        padding: 8px;
+        border-color: rgba(34, 54, 54, 0.041);
+        
+    }
+    
+    button a{
+        color: aqua;
+        padding: 10px;
+        text-decoration: none;
+        font-family: serif;
+    }
+    
+    .location:hover{
+        box-shadow: 2px 2px 5px rgba(74, 3, 141, 0.644);
+        background-color:rgba(54, 31, 77, 0.404);
+        backdrop-filter: blur(10px);
+        transform: scale(1.05);
+        transition: 0.5s ;
+        z-index: 1;
+    }
+}
+
+.site {
+    background-image: url("card2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav {
+
+    background-color: rgba(32, 5, 5, 0.1);
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    
+    text-align: end;
+
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+    padding: 10px;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+ul li a:hover {
+    color: rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(177, 7, 100, 0.486);
+    backdrop-filter: blur(2px);
+    box-shadow: 2px 2px 5px rgba(74, 3, 141, 0.767);
+    z-index: 1;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.location {
+    width: 300px;
+    height: 450px;
+    background-color: rgba(39, 26, 41, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 50px;
+    margin: 100px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.imge {
+    margin: 5px;
+    padding: 7px;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+
+
+}
+
+.capsule {
+    color: rgb(253, 253, 253);
+    padding: 5px;
+    margin: 20px;
+    background-color: rgba(15, 5, 15, 0.041);
+    backdrop-filter: blur(4px);
+    border: 2px solid rgba(15, 5, 15, 0.041);
+    border-radius: 8px;
+}
+.text{
+    text-align: center;
+    background-color: rgba(15, 5, 15, 0.041);
+}
+.text h1{
+    font-family:cursive;
+    color: rgba(6, 225, 233, 0.863);
+}
+
+p{
+    color: cadetblue;
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+
+.buton {
+    text-align: center;
+    padding:13px;
+    margin:8px;
+    
+}
+button{
+    background-color: rgba(211, 191, 211, 0.253);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 8px;
+    border-color: rgba(34, 54, 54, 0.041);
+    
+}
+
+button a{
+    color: aqua;
+    padding: 10px;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.location:hover{
+    box-shadow: 2px 2px 5px rgba(74, 3, 141, 0.644);
+    background-color:rgba(54, 31, 77, 0.404);
+    backdrop-filter: blur(10px);
+    transform: scale(1.05);
+    transition: 0.5s ;
+    z-index: 1;
+}
+.logo {
+    text-align: end;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}

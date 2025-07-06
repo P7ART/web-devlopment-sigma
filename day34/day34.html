@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Grid</title>
+    <style>
+        .contai{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns : [phala]100px [doosra]100px [t];
+            grid-template-rows: 100px 100px 100px;
+        }
+        .item{
+            border:2px solid red;
+            height: 32px;
+            width: 32px;
+        }
+        .item-4{
+            grid-column: 1/2 ;
+            /*both are same*/
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row: 1 / 2;
+        }
+        .item-5{
+            grid-column: doosra/ t;
+            grid-row: 1 / 2;  
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="contai">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item">6</div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS ANIMATION </title>
+        <style>
+        .container{
+            background-color: aqua;
+            width: 30vw;
+            height: 80vh;
+
+        }
+        .box{
+            width: 34px;
+            height: 45px;
+            
+          animation-name: khush;
+           animation-duration: 3s;
+           animation-iteration-count:infinite ;
+           animation-timing-function: cubic-bezier(0, 1.78, 0.95,-0.66);
+          animation-delay: 1s;
+           animation-direction: alternate-reverse0;
+           animation-play-state:running; paused 
+           animation:  khush    3s   0.5s,
+                       khush2  3s ease-in-out 0.5s infinite ;
+            
+           
+           
+
+        }
+        @keyframes khush {
+            from {
+                background-color:red;
+               
+            }
+            to{
+                background-color: green;
+                 
+                
+            }
+        }
+
+        @keyframes khush2{
+            0%{
+                transform:rotate(0deg);
+            }
+            25%{
+                transform:rotate(45deg);
+            }
+            50%{
+                transform:rotate(90deg);
+            }
+            75%{
+                transform:rotate(135deg);
+            }
+            100%{
+                transform:rotate(300deg);
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                box
+            </div>
+        </div>
+
+    </body>
+</html>

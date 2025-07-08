@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tradition</title>
+    <style>
+        .container{
+            background-color: aqua;
+            width: 50vw;
+            height: 40vh;
+
+        }
+        .box{
+            background-color: sienna;
+            width: 5vw;
+            height: 4vh;
+            transition-timing-function: ease-in-out ;
+            transition-property:background-color, transform; 
+            transition-delay: 1s;
+            transition-duration: 3s;
+            transition: all 3s ease-in-out 1s;
+
+        }
+        .tr{
+            transform:translateX(10vw) translateY(10vh) scale(1.5);
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box  tr">
+
+        </div>
+    </div>
+</body>
+</html>

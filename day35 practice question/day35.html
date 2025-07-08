@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-6</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 20px 40px;
+        box-shadow: 0 2px 5px rgba(189, 6, 6, 0.966);
+        gap: 50px;
+        font-size: small;
+        font-weight: lighter;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .logo img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+
+      .logo-text h2 {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .logo-text p {
+        font-size: 10px;
+        color: gray;
+        margin-top: -4px;
+      }
+
+      nav {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        position: relative;
+      }
+
+      .right-nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .buy-btn a {
+        border: 1px solid black;
+        padding: 8px 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        border-radius: 3px;
+      }
+
+      .icon-btn {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .icon-btn img {
+        width: 18px;
+        height: 18px;
+      }
+      .pro{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        display: inline-block;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Left Logo + Text -->
+      <div class="logo">
+        <img src="ue-logo.png" alt="UE Logo" />
+        <div class="logo-text">
+          <h2>UltraEdit</h2>
+          <p>by Embarcadero</p>
+        </div>
+      </div>
+
+      <!-- Middle Navigation -->
+      <nav>
+        <a href="#"><img src="product.svg" class="pro">Products &#9662;</a>
+        <a href="#">Pricing &#9662;</a>
+        <a href="#">Resources &#9662;</a>
+        <a href="#">Our Company &#9662;</a>
+      </nav>
+
+      <!-- Right Side -->
+      <div class="right-nav">
+        <div class="buy-btn">
+          <a href="#">BUY NOW</a>
+        </div>
+        <div class="icon-btn">
+          <img src="world.svg" alt="world" />
+          <span>English</span>
+        </div>
+        <div class="icon-btn">
+          <span>🔍</span>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

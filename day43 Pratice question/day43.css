@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-top:40px;
+
+    
+  
+    
+
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    flex-wrap: wrap;
+}
+.image{
+    position: relative;
+    margin-left: 225px;
+}
+
+.owner{
+    font-size: xx-small;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 4px;
+    position: absolute;
+    inset-inline-start: -4px;
+    inset-block-start: 20px;
+}
+.navbar ul  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-size:smaller;
+    font-weight: 100;
+    font-family:sans-serif;
+    margin:10px;
+}
+.arrow {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    margin-left: 0px;
+
+}
+.buy{
+    border: 2px solid black;   
+    width: 80px;
+    height: 20px;
+    
+}
+
+.eng a{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    font-weight: 100;
+    font-family:sans-serif;
+    
+    
+}
+.search{
+    margin-right: 168px;
+}
+.search-icon{
+    width: 20px;
+}
+.main-body{
+   margin-top: 65px;
+}
+.section1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.pra{
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+  
+
+}
+.review{
+    margin: 10px;
+    width: 112px;
+    height: 34px;  
+    margin-bottom: 20px;
+}
+
+span .edit{
+    font-weight: 700;
+}
+
+.h3{
+    width: 100vw;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.down-buttons   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+
+
+}
+button a{
+    text-decoration: none;
+}
+
+
+.down  {
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+    
+}
+.down:hover {
+    background-color: #00b6d1;
+    color: white;
+    transition: 0.3s;
+}
+.item {
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:12px;
+    margin: auto;
+}
+
+.download :nth-child(2){
+    font-size: 23px;
+}
+
+.download img{
+    padding: 0px 12px;
+}
+.download{
+    display: flex;
+    font-family: sans-serif;
+    gap: 10px;
+    align-items: center;
+}
+.btn {
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn1{
+background: #33ff00;
+padding: 14px 16px;
+color: white;
+border: none;
+border-radius: 6px;
+font-weight: 700;
+margin: 12px 0;
+cursor: pointer;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
